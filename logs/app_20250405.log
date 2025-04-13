@@ -1,0 +1,299 @@
+2025-04-05 07:18:50,040 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 07:20:35,731 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 07:20:35,757 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 07:20:35,780 - crop_matters - INFO - Application started
+2025-04-05 07:20:36,267 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2025-04-05 07:20:36,268 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 07:20:36,306 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 07:20:38,424 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 07:21:02,016 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 07:21:02,060 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 07:21:02,144 - crop_matters - INFO - Application started
+2025-04-05 07:21:02,282 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 07:21:02,348 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 12:15:54,728 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 12:17:30,613 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 12:17:30,655 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 12:17:30,739 - crop_matters - INFO - Application started
+2025-04-05 12:17:31,390 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.17.95:5000
+2025-04-05 12:17:31,390 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:17:31,411 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 12:17:33,489 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 12:17:59,558 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 12:17:59,609 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 12:17:59,703 - crop_matters - INFO - Application started
+2025-04-05 12:17:59,864 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 12:17:59,925 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 12:20:39,532 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:20:39] "GET / HTTP/1.1" 200 -
+2025-04-05 12:20:40,023 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:20:40] "GET / HTTP/1.1" 200 -
+2025-04-05 12:20:42,419 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-05 12:20:42,462 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:20:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 12:21:00,844 - crop_matters - INFO - Saved uploaded file: 3d141802-5231-4079-aaea-f41ae782a9d1_00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG
+2025-04-05 12:21:03,893 - crop_matters - INFO - Prediction for 3d141802-5231-4079-aaea-f41ae782a9d1_00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG: Tomato___Leaf_Mold with confidence 0.0295 in 3.05s
+2025-04-05 12:21:04,101 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:21:04] "POST /predict HTTP/1.1" 200 -
+2025-04-05 12:21:04,867 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:21:04] "GET /uploads/3d141802-5231-4079-aaea-f41ae782a9d1_00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG HTTP/1.1" 200 -
+2025-04-05 12:21:04,868 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:21:04] "GET /uploads/vis_3d141802-5231-4079-aaea-f41ae782a9d1_00e909aa-e3ae-4558-9961-336bb0f35db3___JR_FrgE.S_8593.JPG HTTP/1.1" 200 -
+2025-04-05 12:26:46,457 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:26:46] "GET / HTTP/1.1" 200 -
+2025-04-05 12:26:47,098 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:26:47] "GET / HTTP/1.1" 200 -
+2025-04-05 12:27:01,236 - crop_matters - INFO - Saved uploaded file: 89ecb5bd-8d20-40c8-b01b-85e944d1c8d1_camera-capture.jpg
+2025-04-05 12:27:04,357 - crop_matters - INFO - Prediction for 89ecb5bd-8d20-40c8-b01b-85e944d1c8d1_camera-capture.jpg: Squash___Powdery_mildew with confidence 0.0288 in 3.12s
+2025-04-05 12:27:04,440 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:27:04] "POST /predict HTTP/1.1" 200 -
+2025-04-05 12:27:04,538 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:27:04] "GET /uploads/89ecb5bd-8d20-40c8-b01b-85e944d1c8d1_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-05 12:27:04,553 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:27:04] "GET /uploads/vis_89ecb5bd-8d20-40c8-b01b-85e944d1c8d1_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-05 12:40:22,562 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 12:40:38,891 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 12:40:38,903 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 12:40:38,919 - crop_matters - INFO - Application started
+2025-04-05 12:40:39,079 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.17.95:5000
+2025-04-05 12:40:39,079 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 12:40:39,083 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 12:40:40,886 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 12:41:01,142 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 12:41:01,166 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 12:41:01,175 - crop_matters - INFO - Application started
+2025-04-05 12:41:01,211 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 12:41:01,275 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 12:42:42,473 - crop_matters - INFO - Saved uploaded file: 4a0e8b82-93e3-4c10-ab52-afc418767473_camera-capture.jpg
+2025-04-05 12:42:43,683 - crop_matters - ERROR - Error processing 4a0e8b82-93e3-4c10-ab52-afc418767473_camera-capture.jpg: cannot identify image file <_io.BytesIO object at 0x0000023B2D225A30>
+2025-04-05 12:42:43,685 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:43] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-05 12:42:43,704 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:43] "GET / HTTP/1.1" 200 -
+2025-04-05 12:42:44,404 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:44] "GET / HTTP/1.1" 200 -
+2025-04-05 12:42:48,634 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:48] "GET /about HTTP/1.1" 200 -
+2025-04-05 12:42:48,677 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 12:42:48,679 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 12:42:48,682 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:48] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:48,684 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:48] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:48,995 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 12:42:48,996 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:48] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 12:42:53,370 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:53] "GET /about HTTP/1.1" 200 -
+2025-04-05 12:42:53,619 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 12:42:53,620 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:53] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:53,626 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 12:42:53,627 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:53] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:53,714 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 12:42:53,715 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 12:42:55,465 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:55] "GET /about HTTP/1.1" 200 -
+2025-04-05 12:42:55,768 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 12:42:55,769 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:55] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:55,799 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 12:42:55,802 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 12:42:55,804 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:55] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:42:55,805 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:42:55] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 12:43:01,529 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:01] "GET / HTTP/1.1" 200 -
+2025-04-05 12:43:01,752 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:01] "GET / HTTP/1.1" 200 -
+2025-04-05 12:43:03,605 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:03] "GET /about HTTP/1.1" 200 -
+2025-04-05 12:43:03,910 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 12:43:03,911 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:03] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:43:03,938 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 12:43:03,939 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:03] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 12:43:03,943 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 12:43:03,944 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 12:43:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 12:43:16,973 - werkzeug - INFO -  * Detected change in 'c:\\Users\\STAR\\Desktop\\crp dia\\crop_detection.py', reloading
+2025-04-05 12:43:20,500 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 12:43:21,989 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 12:43:42,432 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 12:43:42,451 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 12:43:42,465 - crop_matters - INFO - Application started
+2025-04-05 12:43:42,505 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 12:43:42,581 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 15:22:52,997 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 15:23:55,690 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 15:23:55,701 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 15:23:55,709 - crop_matters - INFO - Application started
+2025-04-05 15:23:55,978 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.17.95:5000
+2025-04-05 15:23:55,978 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 15:23:55,992 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 15:24:02,133 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 15:24:18,972 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 15:24:18,998 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 15:24:19,020 - crop_matters - INFO - Application started
+2025-04-05 15:24:19,087 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 15:24:19,121 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 15:25:01,814 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:01] "GET / HTTP/1.1" 200 -
+2025-04-05 15:25:01,900 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:01] "GET / HTTP/1.1" 200 -
+2025-04-05 15:25:02,206 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-05 15:25:02,261 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 15:25:04,684 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:04] "GET / HTTP/1.1" 200 -
+2025-04-05 15:25:04,906 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:04] "GET / HTTP/1.1" 200 -
+2025-04-05 15:25:05,983 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:05] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:25:06,244 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 15:25:06,245 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:25:06,324 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:25:06,325 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:06] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:25:06,327 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:25:06,328 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:06] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:25:10,649 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:10] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:25:10,897 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 15:25:10,898 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:10] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:25:10,905 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:25:10,906 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:10] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:25:10,990 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:25:10,992 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:10] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:25:12,751 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:12] "GET /contact HTTP/1.1" 200 -
+2025-04-05 15:25:12,959 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-05 15:25:12,960 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:12] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:25:12,989 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:25:12,990 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:25:12] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:26:37,254 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:26:37] "GET /contact HTTP/1.1" 200 -
+2025-04-05 15:26:37,502 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:26:37,503 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:26:37] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:26:37,517 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:26:37] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-04-05 15:27:07,607 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:07] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:27:07,844 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:27:07,860 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:27:07,861 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:07] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:27:07,939 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:27:07,940 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:07] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:27:20,395 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:20] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:27:20,617 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:27:20,648 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:27:20,649 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:20] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:27:20,729 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:27:20,730 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:20] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:27:23,923 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:23] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:27:24,142 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:27:24,188 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:27:24,189 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:24] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:27:24,253 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:27:24,254 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:24] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:27:26,709 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:26] "GET / HTTP/1.1" 200 -
+2025-04-05 15:27:27,024 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:27] "GET / HTTP/1.1" 200 -
+2025-04-05 15:27:28,773 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:28] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:27:29,011 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:27:29,040 - crop_matters - WARNING - 404 error: /style.css
+2025-04-05 15:27:29,040 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:29] "[33mGET /style.css HTTP/1.1[0m" 404 -
+2025-04-05 15:27:29,102 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:27:29,103 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:27:29] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:28:45,328 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:45] "GET /contact HTTP/1.1" 200 -
+2025-04-05 15:28:45,572 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:28:45,579 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:28:45,580 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:45] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:28:47,359 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:47] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:28:47,563 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:28:47,720 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:28:47,722 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:47] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:28:47,724 - crop_matters - WARNING - 404 error: /static/images/about-image.jpg
+2025-04-05 15:28:47,725 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:28:47] "[33mGET /static/images/about-image.jpg HTTP/1.1[0m" 404 -
+2025-04-05 15:29:34,313 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:29:34] "GET / HTTP/1.1" 200 -
+2025-04-05 15:29:34,550 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:29:34] "GET / HTTP/1.1" 200 -
+2025-04-05 15:29:45,796 - crop_matters - INFO - Saved uploaded file: 2f01c3fb-0d53-4b28-99fd-7e7a16c6e171_istockphoto-1142266260-612x612.jpg
+2025-04-05 15:29:47,604 - crop_matters - INFO - Prediction for 2f01c3fb-0d53-4b28-99fd-7e7a16c6e171_istockphoto-1142266260-612x612.jpg: Tomato___Leaf_Mold with confidence 0.0293 in 1.81s
+2025-04-05 15:29:47,778 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:29:47] "POST /predict HTTP/1.1" 200 -
+2025-04-05 15:29:47,815 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:29:47] "GET /uploads/2f01c3fb-0d53-4b28-99fd-7e7a16c6e171_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 15:29:47,830 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:29:47] "GET /uploads/vis_2f01c3fb-0d53-4b28-99fd-7e7a16c6e171_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 15:35:21,657 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:35:21] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:35:21,870 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:35:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:35:21,882 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:35:21,885 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:35:21] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:35:22,063 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:35:22] "GET /static/images/about-image.jpg HTTP/1.1" 200 -
+2025-04-05 15:36:27,010 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:36:27] "GET / HTTP/1.1" 200 -
+2025-04-05 15:36:27,244 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:36:27] "GET / HTTP/1.1" 200 -
+2025-04-05 15:36:47,070 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:36:47] "GET /contact HTTP/1.1" 200 -
+2025-04-05 15:36:47,289 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:36:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:36:47,320 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:36:47,322 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:36:47] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:37:07,263 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:37:07] "[31m[1mPOST /contact HTTP/1.1[0m" 405 -
+2025-04-05 15:38:09,154 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:09] "GET / HTTP/1.1" 200 -
+2025-04-05 15:38:09,383 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:09] "GET / HTTP/1.1" 200 -
+2025-04-05 15:38:11,129 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:11] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:38:11,226 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:38:11,461 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:38:11,462 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:11] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:38:11,468 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:11] "[36mGET /static/images/about-image.jpg HTTP/1.1[0m" 304 -
+2025-04-05 15:38:14,386 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:14] "GET / HTTP/1.1" 200 -
+2025-04-05 15:38:14,606 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:14] "GET / HTTP/1.1" 200 -
+2025-04-05 15:38:57,451 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:57] "GET / HTTP/1.1" 200 -
+2025-04-05 15:38:57,486 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:38:57] "GET / HTTP/1.1" 200 -
+2025-04-05 15:39:03,019 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:03] "GET /about HTTP/1.1" 200 -
+2025-04-05 15:39:03,326 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:39:03,362 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:39:03,363 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:03] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:39:03,370 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:03] "[36mGET /static/images/about-image.jpg HTTP/1.1[0m" 304 -
+2025-04-05 15:39:08,579 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:08] "GET /contact HTTP/1.1" 200 -
+2025-04-05 15:39:08,815 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 15:39:08,845 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 15:39:08,846 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:08] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 15:39:14,980 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:14] "GET / HTTP/1.1" 200 -
+2025-04-05 15:39:15,285 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:39:15] "GET / HTTP/1.1" 200 -
+2025-04-05 15:41:42,882 - crop_matters - INFO - Saved uploaded file: c6d2e05b-d17a-4f48-ba63-258dd847c741_camera-capture.jpg
+2025-04-05 15:41:44,525 - crop_matters - INFO - Prediction for c6d2e05b-d17a-4f48-ba63-258dd847c741_camera-capture.jpg: Tomato___Leaf_Mold with confidence 0.0308 in 1.64s
+2025-04-05 15:41:44,680 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:41:44] "POST /predict HTTP/1.1" 200 -
+2025-04-05 15:41:45,074 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:41:45] "GET /uploads/c6d2e05b-d17a-4f48-ba63-258dd847c741_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-05 15:41:45,096 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 15:41:45] "GET /uploads/vis_c6d2e05b-d17a-4f48-ba63-258dd847c741_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-05 15:51:20,128 - werkzeug - INFO -  * Detected change in 'c:\\Users\\STAR\\Desktop\\crp dia\\train_model.py', reloading
+2025-04-05 20:49:40,722 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 20:50:56,442 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 20:53:11,980 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 20:54:08,984 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 20:54:09,027 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 20:54:09,086 - crop_matters - INFO - Application started
+2025-04-05 20:54:09,453 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-04-05 20:54:09,454 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-05 20:54:09,471 - werkzeug - INFO -  * Restarting with stat
+2025-04-05 20:54:11,133 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-05 20:54:28,003 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-05 20:54:28,011 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-05 20:54:28,016 - crop_matters - INFO - Application started
+2025-04-05 20:54:28,034 - werkzeug - WARNING -  * Debugger is active!
+2025-04-05 20:54:28,055 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-05 20:54:56,297 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:54:56] "GET / HTTP/1.1" 200 -
+2025-04-05 20:54:56,714 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:54:56] "GET / HTTP/1.1" 200 -
+2025-04-05 20:54:56,973 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-05 20:54:57,018 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:54:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-05 20:55:07,681 - crop_matters - INFO - Saved uploaded file: 7bef27ce-6ee4-4e0d-9623-5e76d87c85da_istockphoto-1142266260-612x612.jpg
+2025-04-05 20:55:09,326 - crop_matters - INFO - Prediction for 7bef27ce-6ee4-4e0d-9623-5e76d87c85da_istockphoto-1142266260-612x612.jpg: Tomato___Leaf_Mold with confidence 0.0293 in 1.64s
+2025-04-05 20:55:09,463 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:55:09] "POST /predict HTTP/1.1" 200 -
+2025-04-05 20:55:10,005 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:55:10] "GET /uploads/7bef27ce-6ee4-4e0d-9623-5e76d87c85da_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 20:55:10,037 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:55:10] "GET /uploads/vis_7bef27ce-6ee4-4e0d-9623-5e76d87c85da_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 20:57:10,411 - crop_matters - INFO - Saved uploaded file: 4023cc19-2bfc-4e14-baae-00206d72375c_istockphoto-177130309-612x612.jpg
+2025-04-05 20:57:10,900 - crop_matters - INFO - Prediction for 4023cc19-2bfc-4e14-baae-00206d72375c_istockphoto-177130309-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0322 in 0.49s
+2025-04-05 20:57:10,941 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:57:10] "POST /predict HTTP/1.1" 200 -
+2025-04-05 20:57:10,975 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:57:10] "GET /uploads/4023cc19-2bfc-4e14-baae-00206d72375c_istockphoto-177130309-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 20:57:10,999 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:57:10] "GET /uploads/vis_4023cc19-2bfc-4e14-baae-00206d72375c_istockphoto-177130309-612x612.jpg HTTP/1.1" 200 -
+2025-04-05 20:57:17,541 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:57:17] "GET / HTTP/1.1" 200 -
+2025-04-05 20:57:17,785 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:57:17] "GET / HTTP/1.1" 200 -
+2025-04-05 20:59:32,638 - crop_matters - INFO - Saved uploaded file: eddaae68-1d5f-459c-8a18-6927aa26db28_download.jpg
+2025-04-05 20:59:33,233 - crop_matters - INFO - Prediction for eddaae68-1d5f-459c-8a18-6927aa26db28_download.jpg: Tomato___Leaf_Mold with confidence 0.0300 in 0.59s
+2025-04-05 20:59:33,247 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:59:33] "POST /predict HTTP/1.1" 200 -
+2025-04-05 20:59:33,274 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:59:33] "GET /uploads/eddaae68-1d5f-459c-8a18-6927aa26db28_download.jpg HTTP/1.1" 200 -
+2025-04-05 20:59:33,303 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 20:59:33] "GET /uploads/vis_eddaae68-1d5f-459c-8a18-6927aa26db28_download.jpg HTTP/1.1" 200 -
+2025-04-05 21:02:58,985 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:02:58] "GET / HTTP/1.1" 200 -
+2025-04-05 21:02:59,218 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:02:59] "GET / HTTP/1.1" 200 -
+2025-04-05 21:03:23,494 - crop_matters - INFO - Saved uploaded file: d53affff-48c2-41b9-8652-27f117d122e4_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG
+2025-04-05 21:03:23,953 - crop_matters - INFO - Prediction for d53affff-48c2-41b9-8652-27f117d122e4_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG: Tomato___Bacterial_spot with confidence 0.0295 in 0.46s
+2025-04-05 21:03:23,966 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:03:23] "POST /predict HTTP/1.1" 200 -
+2025-04-05 21:03:24,009 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:03:24] "GET /uploads/d53affff-48c2-41b9-8652-27f117d122e4_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG HTTP/1.1" 200 -
+2025-04-05 21:03:24,051 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:03:24] "GET /uploads/vis_d53affff-48c2-41b9-8652-27f117d122e4_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG HTTP/1.1" 200 -
+2025-04-05 21:04:29,224 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:29] "GET / HTTP/1.1" 200 -
+2025-04-05 21:04:29,457 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:29] "GET / HTTP/1.1" 200 -
+2025-04-05 21:04:46,824 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:46] "GET /about HTTP/1.1" 200 -
+2025-04-05 21:04:46,889 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 21:04:47,174 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 21:04:47,176 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:47] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 21:04:47,212 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:47] "[36mGET /static/images/about-image.jpg HTTP/1.1[0m" 304 -
+2025-04-05 21:04:53,058 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:53] "GET /contact HTTP/1.1" 200 -
+2025-04-05 21:04:53,232 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-04-05 21:04:53,260 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-05 21:04:53,262 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:04:53] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-05 21:05:21,547 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:05:21] "GET / HTTP/1.1" 200 -
+2025-04-05 21:05:21,869 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:05:21] "GET / HTTP/1.1" 200 -
+2025-04-05 21:13:26,126 - crop_matters - INFO - Saved uploaded file: 1a2cec70-49fd-479e-99a4-91fc23a591db_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG
+2025-04-05 21:13:28,929 - crop_matters - INFO - Prediction for 1a2cec70-49fd-479e-99a4-91fc23a591db_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG: Tomato___Bacterial_spot with confidence 0.0295 in 2.79s
+2025-04-05 21:13:29,068 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:13:29] "POST /predict HTTP/1.1" 200 -
+2025-04-05 21:13:29,475 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:13:29] "GET /uploads/1a2cec70-49fd-479e-99a4-91fc23a591db_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG HTTP/1.1" 200 -
+2025-04-05 21:13:29,491 - werkzeug - INFO - 127.0.0.1 - - [05/Apr/2025 21:13:29] "GET /uploads/vis_1a2cec70-49fd-479e-99a4-91fc23a591db_00fca0da-2db3-481b-b98a-9b67bb7b105c___RS_HL_7708.JPG HTTP/1.1" 200 -

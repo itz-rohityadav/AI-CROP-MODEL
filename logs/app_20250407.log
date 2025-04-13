@@ -1,0 +1,73 @@
+2025-04-07 11:46:43,237 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:46:43,245 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow'
+2025-04-07 11:46:43,250 - crop_matters - INFO - Application started
+2025-04-07 11:46:43,616 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 11:46:43,616 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 11:46:43,626 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 11:46:44,203 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:46:44,211 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow'
+2025-04-07 11:46:44,213 - crop_matters - INFO - Application started
+2025-04-07 11:46:44,243 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 11:46:44,264 - werkzeug - INFO -  * Debugger PIN: 140-959-777
+2025-04-07 11:47:30,392 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:47:30,394 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow'
+2025-04-07 11:47:30,396 - crop_matters - INFO - Application started
+2025-04-07 11:47:30,455 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 11:47:30,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 11:47:30,457 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 11:47:31,145 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:47:31,147 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow'
+2025-04-07 11:47:31,151 - crop_matters - INFO - Application started
+2025-04-07 11:47:31,183 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 11:47:31,195 - werkzeug - INFO -  * Debugger PIN: 140-959-777
+2025-04-07 11:48:34,939 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:48:34,954 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow.python'
+2025-04-07 11:48:34,956 - crop_matters - INFO - Application started
+2025-04-07 11:48:35,043 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 11:48:35,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 11:48:35,046 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 11:48:35,620 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:48:35,633 - crop_matters - ERROR - Could not load disease detector model: No module named 'tensorflow.python'
+2025-04-07 11:48:35,636 - crop_matters - INFO - Application started
+2025-04-07 11:48:35,659 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 11:48:35,671 - werkzeug - INFO -  * Debugger PIN: 140-959-777
+2025-04-07 11:49:44,422 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:50:34,995 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-07 11:50:34,995 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-07 11:50:34,996 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-07 11:50:34,996 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-07 11:50:34,999 - crop_matters - INFO - Application started
+2025-04-07 11:50:35,114 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.109:5000
+2025-04-07 11:50:35,114 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-07 11:50:35,126 - werkzeug - INFO -  * Restarting with stat
+2025-04-07 11:50:35,786 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-07 11:50:42,191 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-07 11:50:42,191 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-07 11:50:42,192 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-07 11:50:42,192 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-07 11:50:42,195 - crop_matters - INFO - Application started
+2025-04-07 11:50:42,204 - werkzeug - WARNING -  * Debugger is active!
+2025-04-07 11:50:42,220 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-07 11:52:23,435 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:52:23] "GET / HTTP/1.1" 200 -
+2025-04-07 11:52:23,807 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:52:23] "GET / HTTP/1.1" 200 -
+2025-04-07 11:52:26,531 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-07 11:52:26,542 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 11:52:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-07 12:08:11,187 - crop_matters - INFO - Saved uploaded file: fdc05a38-3bec-4274-bfe2-9959f076700d_AppleCedarRust2.JPG
+2025-04-07 12:08:11,795 - crop_disease_detector - INFO - Making prediction for user_data\uploads\fdc05a38-3bec-4274-bfe2-9959f076700d_AppleCedarRust2.JPG
+2025-04-07 12:08:14,269 - crop_disease_detector - INFO - Prediction result: Apple___Cedar_apple_rust with confidence 0.9915
+2025-04-07 12:08:14,270 - crop_matters - INFO - Prediction for fdc05a38-3bec-4274-bfe2-9959f076700d_AppleCedarRust2.JPG: Apple___Cedar_apple_rust with confidence 0.9915 in 3.08s
+2025-04-07 12:08:14,509 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:08:14] "POST /predict HTTP/1.1" 200 -
+2025-04-07 12:08:15,032 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:08:15] "GET /uploads/fdc05a38-3bec-4274-bfe2-9959f076700d_AppleCedarRust2.JPG HTTP/1.1" 200 -
+2025-04-07 12:08:15,041 - werkzeug - INFO - 127.0.0.1 - - [07/Apr/2025 12:08:15] "GET /uploads/vis_fdc05a38-3bec-4274-bfe2-9959f076700d_AppleCedarRust2.JPG HTTP/1.1" 200 -

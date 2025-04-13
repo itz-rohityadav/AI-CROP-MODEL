@@ -1,0 +1,193 @@
+2025-04-06 10:31:57,513 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:33:15,135 - crop_matters - ERROR - Model file not found: models\plant_disease_model_finetuned.keras
+2025-04-06 10:33:15,145 - crop_matters - INFO - Application started
+2025-04-06 10:33:15,501 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-04-06 10:33:15,501 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 10:33:15,517 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:33:16,807 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:33:27,335 - crop_matters - ERROR - Model file not found: models\plant_disease_model_finetuned.keras
+2025-04-06 10:33:27,340 - crop_matters - INFO - Application started
+2025-04-06 10:33:27,360 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:33:27,396 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-06 10:34:41,073 - werkzeug - INFO -  * Detected change in 'c:\\Users\\STAR\\Desktop\\crp dia\\app.py', reloading
+2025-04-06 10:34:42,065 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:34:49,616 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:35:03,247 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 10:35:03,248 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 10:35:03,248 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 10:35:03,248 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 10:35:03,252 - crop_matters - INFO - Application started
+2025-04-06 10:35:03,298 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-04-06 10:35:03,298 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 10:35:03,302 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:35:04,083 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:35:12,901 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 10:35:12,902 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 10:35:12,904 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 10:35:12,904 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 10:35:12,907 - crop_matters - INFO - Application started
+2025-04-06 10:35:12,922 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:35:12,941 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-06 10:35:52,669 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:35:52] "GET / HTTP/1.1" 200 -
+2025-04-06 10:35:52,739 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:35:52] "GET / HTTP/1.1" 200 -
+2025-04-06 10:35:52,970 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-06 10:35:53,055 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:35:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 10:36:12,119 - crop_matters - INFO - Saved uploaded file: 55a0e806-f7ce-4f4b-af95-1bbe0fbd5e5d_download.jpg
+2025-04-06 10:36:12,294 - crop_disease_detector - INFO - Making prediction for user_data\uploads\55a0e806-f7ce-4f4b-af95-1bbe0fbd5e5d_download.jpg
+2025-04-06 10:36:14,536 - crop_disease_detector - INFO - Prediction result: Strawberry___Leaf_scorch with confidence 0.9728
+2025-04-06 10:36:14,536 - crop_matters - INFO - Prediction for 55a0e806-f7ce-4f4b-af95-1bbe0fbd5e5d_download.jpg: Strawberry___Leaf_scorch with confidence 0.9728 in 2.42s
+2025-04-06 10:36:14,592 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:14] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:36:14,901 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:14] "GET /uploads/55a0e806-f7ce-4f4b-af95-1bbe0fbd5e5d_download.jpg HTTP/1.1" 200 -
+2025-04-06 10:36:14,929 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:14] "GET /uploads/vis_55a0e806-f7ce-4f4b-af95-1bbe0fbd5e5d_download.jpg HTTP/1.1" 200 -
+2025-04-06 10:36:36,004 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:36] "GET / HTTP/1.1" 200 -
+2025-04-06 10:36:36,031 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:36] "GET / HTTP/1.1" 200 -
+2025-04-06 10:36:46,169 - crop_matters - INFO - Saved uploaded file: a5e41dc4-38c8-4069-b35b-77d43648a949_istockphoto-177130309-612x612.jpg
+2025-04-06 10:36:46,188 - crop_disease_detector - INFO - Making prediction for user_data\uploads\a5e41dc4-38c8-4069-b35b-77d43648a949_istockphoto-177130309-612x612.jpg
+2025-04-06 10:36:46,313 - crop_disease_detector - INFO - Prediction result: Blueberry___healthy with confidence 0.6841
+2025-04-06 10:36:46,313 - crop_matters - INFO - Prediction for a5e41dc4-38c8-4069-b35b-77d43648a949_istockphoto-177130309-612x612.jpg: Blueberry___healthy with confidence 0.6841 in 0.14s
+2025-04-06 10:36:46,326 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:46] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:36:46,357 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:46] "GET /uploads/a5e41dc4-38c8-4069-b35b-77d43648a949_istockphoto-177130309-612x612.jpg HTTP/1.1" 200 -
+2025-04-06 10:36:46,447 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:36:46] "GET /uploads/vis_a5e41dc4-38c8-4069-b35b-77d43648a949_istockphoto-177130309-612x612.jpg HTTP/1.1" 200 -
+2025-04-06 10:39:04,840 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:39:04] "GET / HTTP/1.1" 200 -
+2025-04-06 10:39:04,861 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:39:04] "GET / HTTP/1.1" 200 -
+2025-04-06 10:39:20,957 - crop_matters - INFO - Saved uploaded file: 6b49bea3-f746-4b60-8feb-695bf57af210_camera-capture.jpg
+2025-04-06 10:39:21,007 - crop_disease_detector - INFO - Making prediction for user_data\uploads\6b49bea3-f746-4b60-8feb-695bf57af210_camera-capture.jpg
+2025-04-06 10:39:21,513 - crop_disease_detector - INFO - Prediction result: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot with confidence 0.7529
+2025-04-06 10:39:21,513 - crop_matters - INFO - Prediction for 6b49bea3-f746-4b60-8feb-695bf57af210_camera-capture.jpg: Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot with confidence 0.7529 in 0.56s
+2025-04-06 10:39:21,584 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:39:21] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:39:21,620 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:39:21] "GET /uploads/6b49bea3-f746-4b60-8feb-695bf57af210_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-06 10:39:21,938 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:39:21] "GET /uploads/vis_6b49bea3-f746-4b60-8feb-695bf57af210_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-06 10:39:59,889 - crop_matters - INFO - Saved uploaded file: e68d2a47-cbe5-4623-8f90-4a4ac2bb8710_AppleCedarRust1.JPG
+2025-04-06 10:39:59,903 - crop_disease_detector - INFO - Making prediction for user_data\uploads\e68d2a47-cbe5-4623-8f90-4a4ac2bb8710_AppleCedarRust1.JPG
+2025-04-06 10:40:00,069 - crop_disease_detector - INFO - Prediction result: Apple___Cedar_apple_rust with confidence 0.9980
+2025-04-06 10:40:00,070 - crop_matters - INFO - Prediction for e68d2a47-cbe5-4623-8f90-4a4ac2bb8710_AppleCedarRust1.JPG: Apple___Cedar_apple_rust with confidence 0.9980 in 0.18s
+2025-04-06 10:40:00,074 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:40:00] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:40:00,100 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:40:00] "GET /uploads/e68d2a47-cbe5-4623-8f90-4a4ac2bb8710_AppleCedarRust1.JPG HTTP/1.1" 200 -
+2025-04-06 10:40:00,426 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:40:00] "GET /uploads/vis_e68d2a47-cbe5-4623-8f90-4a4ac2bb8710_AppleCedarRust1.JPG HTTP/1.1" 200 -
+2025-04-06 10:42:28,714 - crop_matters - INFO - Saved uploaded file: 20b5c97b-0444-4f10-952f-3df70b31da46_camera-capture.jpg
+2025-04-06 10:42:28,737 - crop_disease_detector - INFO - Making prediction for user_data\uploads\20b5c97b-0444-4f10-952f-3df70b31da46_camera-capture.jpg
+2025-04-06 10:42:28,883 - crop_disease_detector - INFO - Prediction result: Pepper,_bell___healthy with confidence 0.4389
+2025-04-06 10:42:28,884 - crop_matters - INFO - Prediction for 20b5c97b-0444-4f10-952f-3df70b31da46_camera-capture.jpg: Pepper,_bell___healthy with confidence 0.4389 in 0.17s
+2025-04-06 10:42:28,899 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:42:28] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:42:28,929 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:42:28] "GET /uploads/20b5c97b-0444-4f10-952f-3df70b31da46_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-06 10:42:29,247 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:42:29] "GET /uploads/vis_20b5c97b-0444-4f10-952f-3df70b31da46_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-06 10:53:12,030 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:53:32,734 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 10:53:32,734 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 10:53:32,735 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 10:53:32,735 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 10:53:32,739 - crop_matters - INFO - Application started
+2025-04-06 10:53:32,813 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-04-06 10:53:32,813 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 10:53:32,816 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 10:53:33,837 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 10:53:44,056 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 10:53:44,056 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 10:53:44,058 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 10:53:44,058 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 10:53:44,061 - crop_matters - INFO - Application started
+2025-04-06 10:53:44,075 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 10:53:44,102 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-06 10:53:51,261 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:53:51] "GET / HTTP/1.1" 200 -
+2025-04-06 10:53:51,383 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:53:51] "GET / HTTP/1.1" 200 -
+2025-04-06 10:54:46,154 - crop_matters - INFO - Saved uploaded file: 3ab5d99d-2325-4264-9200-efe674eb1904_Apple-scab-advanced-leaves-Grabowski.jpg
+2025-04-06 10:54:46,318 - crop_disease_detector - INFO - Making prediction for user_data\uploads\3ab5d99d-2325-4264-9200-efe674eb1904_Apple-scab-advanced-leaves-Grabowski.jpg
+2025-04-06 10:54:48,585 - crop_disease_detector - INFO - Prediction result: Pepper,_bell___Bacterial_spot with confidence 0.9225
+2025-04-06 10:54:48,586 - crop_matters - INFO - Prediction for 3ab5d99d-2325-4264-9200-efe674eb1904_Apple-scab-advanced-leaves-Grabowski.jpg: Pepper,_bell___Bacterial_spot with confidence 0.9225 in 2.43s
+2025-04-06 10:54:48,775 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:54:48] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:54:49,337 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:54:49] "GET /uploads/3ab5d99d-2325-4264-9200-efe674eb1904_Apple-scab-advanced-leaves-Grabowski.jpg HTTP/1.1" 200 -
+2025-04-06 10:54:49,355 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:54:49] "GET /uploads/vis_3ab5d99d-2325-4264-9200-efe674eb1904_Apple-scab-advanced-leaves-Grabowski.jpg HTTP/1.1" 200 -
+2025-04-06 10:55:45,273 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:55:45] "GET / HTTP/1.1" 200 -
+2025-04-06 10:55:45,298 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:55:45] "GET / HTTP/1.1" 200 -
+2025-04-06 10:56:21,089 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:21] "GET / HTTP/1.1" 200 -
+2025-04-06 10:56:21,110 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:21] "GET / HTTP/1.1" 200 -
+2025-04-06 10:56:43,476 - crop_matters - INFO - Saved uploaded file: af21177b-a505-467a-9315-e7ea7a146180_Screenshot_2025-04-06_105613.png
+2025-04-06 10:56:43,493 - crop_disease_detector - INFO - Making prediction for user_data\uploads\af21177b-a505-467a-9315-e7ea7a146180_Screenshot_2025-04-06_105613.png
+2025-04-06 10:56:43,651 - crop_disease_detector - INFO - Prediction result: Apple___Apple_scab with confidence 0.9782
+2025-04-06 10:56:43,651 - crop_matters - INFO - Prediction for af21177b-a505-467a-9315-e7ea7a146180_Screenshot_2025-04-06_105613.png: Apple___Apple_scab with confidence 0.9782 in 0.18s
+2025-04-06 10:56:43,670 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:43] "POST /predict HTTP/1.1" 200 -
+2025-04-06 10:56:43,700 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:43] "GET /uploads/af21177b-a505-467a-9315-e7ea7a146180_Screenshot_2025-04-06_105613.png HTTP/1.1" 200 -
+2025-04-06 10:56:43,755 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 10:56:43] "GET /uploads/vis_af21177b-a505-467a-9315-e7ea7a146180_Screenshot_2025-04-06_105613.png HTTP/1.1" 200 -
+2025-04-06 20:50:22,618 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 20:51:32,123 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 20:51:32,124 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 20:51:32,124 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 20:51:32,125 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 20:51:32,128 - crop_matters - INFO - Application started
+2025-04-06 20:51:32,335 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.12:5000
+2025-04-06 20:51:32,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-06 20:51:32,347 - werkzeug - INFO -  * Restarting with stat
+2025-04-06 20:51:33,474 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-06 20:51:45,494 - crop_disease_detector - INFO - Loaded model from models\plant_disease_model_best.keras
+2025-04-06 20:51:45,494 - crop_disease_detector - INFO - Model expects input size: 224x224
+2025-04-06 20:51:45,495 - crop_disease_detector - INFO - Loaded 38 disease classes
+2025-04-06 20:51:45,495 - crop_matters - INFO - Successfully loaded disease detector model
+2025-04-06 20:51:45,499 - crop_matters - INFO - Application started
+2025-04-06 20:51:45,513 - werkzeug - WARNING -  * Debugger is active!
+2025-04-06 20:51:45,547 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-06 20:51:59,233 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:51:59] "GET / HTTP/1.1" 200 -
+2025-04-06 20:51:59,710 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:51:59] "GET / HTTP/1.1" 200 -
+2025-04-06 20:52:02,393 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-06 20:52:02,433 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-06 20:52:11,068 - crop_matters - INFO - Saved uploaded file: 064961cf-6e53-49b1-b2b3-6351cef878c4_Apple-scab-advanced-leaves-Grabowski.jpg
+2025-04-06 20:52:11,382 - crop_disease_detector - INFO - Making prediction for user_data\uploads\064961cf-6e53-49b1-b2b3-6351cef878c4_Apple-scab-advanced-leaves-Grabowski.jpg
+2025-04-06 20:52:13,495 - crop_disease_detector - INFO - Prediction result: Pepper,_bell___Bacterial_spot with confidence 0.9601
+2025-04-06 20:52:13,496 - crop_matters - INFO - Prediction for 064961cf-6e53-49b1-b2b3-6351cef878c4_Apple-scab-advanced-leaves-Grabowski.jpg: Pepper,_bell___Bacterial_spot with confidence 0.9601 in 2.43s
+2025-04-06 20:52:13,796 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:13] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:52:14,510 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:14] "GET /uploads/064961cf-6e53-49b1-b2b3-6351cef878c4_Apple-scab-advanced-leaves-Grabowski.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:14,521 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:14] "GET /uploads/vis_064961cf-6e53-49b1-b2b3-6351cef878c4_Apple-scab-advanced-leaves-Grabowski.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:23,642 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:23] "GET / HTTP/1.1" 200 -
+2025-04-06 20:52:23,861 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:23] "GET / HTTP/1.1" 200 -
+2025-04-06 20:52:33,939 - crop_matters - INFO - Saved uploaded file: 547a566c-5c8e-40de-8e0f-66a8bcd5784f_download.jpg
+2025-04-06 20:52:33,952 - crop_disease_detector - INFO - Making prediction for user_data\uploads\547a566c-5c8e-40de-8e0f-66a8bcd5784f_download.jpg
+2025-04-06 20:52:34,082 - crop_disease_detector - INFO - Prediction result: Strawberry___Leaf_scorch with confidence 0.9909
+2025-04-06 20:52:34,083 - crop_matters - INFO - Prediction for 547a566c-5c8e-40de-8e0f-66a8bcd5784f_download.jpg: Strawberry___Leaf_scorch with confidence 0.9909 in 0.14s
+2025-04-06 20:52:34,090 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:34] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:52:34,119 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:34] "GET /uploads/547a566c-5c8e-40de-8e0f-66a8bcd5784f_download.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:34,217 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:34] "GET /uploads/vis_547a566c-5c8e-40de-8e0f-66a8bcd5784f_download.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:40,146 - crop_matters - INFO - Saved uploaded file: e4b87e15-50fb-47b9-8716-ac644bd6581b_download.jpg
+2025-04-06 20:52:40,161 - crop_disease_detector - INFO - Making prediction for user_data\uploads\e4b87e15-50fb-47b9-8716-ac644bd6581b_download.jpg
+2025-04-06 20:52:40,302 - crop_disease_detector - INFO - Prediction result: Strawberry___Leaf_scorch with confidence 0.9909
+2025-04-06 20:52:40,302 - crop_matters - INFO - Prediction for e4b87e15-50fb-47b9-8716-ac644bd6581b_download.jpg: Strawberry___Leaf_scorch with confidence 0.9909 in 0.16s
+2025-04-06 20:52:40,309 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:40] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:52:40,340 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:40] "GET /uploads/e4b87e15-50fb-47b9-8716-ac644bd6581b_download.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:40,658 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:40] "GET /uploads/vis_e4b87e15-50fb-47b9-8716-ac644bd6581b_download.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:44,011 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:44] "GET / HTTP/1.1" 200 -
+2025-04-06 20:52:44,234 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:44] "GET / HTTP/1.1" 200 -
+2025-04-06 20:52:56,495 - crop_matters - INFO - Saved uploaded file: df193d3f-4d3c-40de-8127-61c9aec84863_istockphoto-1142266260-612x612.jpg
+2025-04-06 20:52:56,507 - crop_disease_detector - INFO - Making prediction for user_data\uploads\df193d3f-4d3c-40de-8127-61c9aec84863_istockphoto-1142266260-612x612.jpg
+2025-04-06 20:52:56,625 - crop_disease_detector - INFO - Prediction result: Peach___Bacterial_spot with confidence 0.2638
+2025-04-06 20:52:56,626 - crop_matters - INFO - Prediction for df193d3f-4d3c-40de-8127-61c9aec84863_istockphoto-1142266260-612x612.jpg: Peach___Bacterial_spot with confidence 0.2638 in 0.13s
+2025-04-06 20:52:56,632 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:56] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:52:56,660 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:56] "GET /uploads/df193d3f-4d3c-40de-8127-61c9aec84863_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-06 20:52:56,769 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:52:56] "GET /uploads/vis_df193d3f-4d3c-40de-8127-61c9aec84863_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-06 20:54:49,877 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:54:49] "GET / HTTP/1.1" 200 -
+2025-04-06 20:54:50,108 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:54:50] "GET / HTTP/1.1" 200 -
+2025-04-06 20:54:58,211 - crop_matters - INFO - Saved uploaded file: df8461c6-daf2-42af-9dba-dc79f3d736c0_pixie-crunch-apple-tree.wdp.jpg
+2025-04-06 20:54:58,985 - crop_disease_detector - INFO - Making prediction for user_data\uploads\df8461c6-daf2-42af-9dba-dc79f3d736c0_pixie-crunch-apple-tree.wdp.jpg
+2025-04-06 20:54:59,233 - crop_disease_detector - INFO - Prediction result: Strawberry___Leaf_scorch with confidence 0.8953
+2025-04-06 20:54:59,234 - crop_matters - INFO - Prediction for df8461c6-daf2-42af-9dba-dc79f3d736c0_pixie-crunch-apple-tree.wdp.jpg: Strawberry___Leaf_scorch with confidence 0.8953 in 1.02s
+2025-04-06 20:54:59,297 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:54:59] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:54:59,343 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:54:59] "GET /uploads/df8461c6-daf2-42af-9dba-dc79f3d736c0_pixie-crunch-apple-tree.wdp.jpg HTTP/1.1" 200 -
+2025-04-06 20:54:59,362 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:54:59] "GET /uploads/vis_df8461c6-daf2-42af-9dba-dc79f3d736c0_pixie-crunch-apple-tree.wdp.jpg HTTP/1.1" 200 -
+2025-04-06 20:55:33,271 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:55:33] "GET / HTTP/1.1" 200 -
+2025-04-06 20:55:33,547 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:55:33] "GET / HTTP/1.1" 200 -
+2025-04-06 20:55:54,930 - crop_matters - INFO - Saved uploaded file: 8a8a9369-0978-4f93-8e4f-c0403a292f9b_Screenshot_2025-04-06_205524.png
+2025-04-06 20:55:54,956 - crop_disease_detector - INFO - Making prediction for user_data\uploads\8a8a9369-0978-4f93-8e4f-c0403a292f9b_Screenshot_2025-04-06_205524.png
+2025-04-06 20:55:55,094 - crop_disease_detector - INFO - Prediction result: Apple___Apple_scab with confidence 0.7097
+2025-04-06 20:55:55,094 - crop_matters - INFO - Prediction for 8a8a9369-0978-4f93-8e4f-c0403a292f9b_Screenshot_2025-04-06_205524.png: Apple___Apple_scab with confidence 0.7097 in 0.16s
+2025-04-06 20:55:55,124 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:55:55] "POST /predict HTTP/1.1" 200 -
+2025-04-06 20:55:55,153 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:55:55] "GET /uploads/8a8a9369-0978-4f93-8e4f-c0403a292f9b_Screenshot_2025-04-06_205524.png HTTP/1.1" 200 -
+2025-04-06 20:55:55,194 - werkzeug - INFO - 127.0.0.1 - - [06/Apr/2025 20:55:55] "GET /uploads/vis_8a8a9369-0978-4f93-8e4f-c0403a292f9b_Screenshot_2025-04-06_205524.png HTTP/1.1" 200 -

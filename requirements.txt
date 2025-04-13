@@ -1,0 +1,14 @@
+# Core Requirements ★
+Flask==3.0.2
+Werkzeug==3.0.1
+numpy==1.26.4
+tensorflow==2.16.1
+Pillow==10.2.0
+opencv-python-headless==4.9.0.80  # Required for visualization in app.py
+Flask-Session==0.9.0
+gunicorn==21.2.0
+
+# Development/Testing Only (Not needed for production)
+# matplotlib==3.8.3
+# seaborn==0.13.2
+# scikit-learn==1.4.2

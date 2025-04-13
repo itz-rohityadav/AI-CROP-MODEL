@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_name }} - Crop Disease Detection</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #2e7d32;
+            --secondary-color: #81c784;
+            --accent-color: #ffeb3b;
+            --text-color: #212121;
+            --light-bg: #f5f5f5;
+            --white: #ffffff;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            line-height: 1.6;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--white) !important;
+        }
+        
+        .nav-link {
+            color: var(--white) !important;
+            font-weight: 500;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            color: var(--white);
+            padding: 100px 0;
+            text-align: center;
+        }
+        
+        .hero-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+        
+        .upload-container {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-top: -50px;
+            position: relative;
+        }
+        
+        .upload-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .upload-methods {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .method-tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            font-weight: 500;
+        }
+        
+        .method-tab.active {
+            border-bottom: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .upload-area {
+            border: 2px dashed var(--secondary-color);
+            border-radius: 5px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .upload-area:hover {
+            border-color: var(--primary-color);
+            background-color: rgba(129, 199, 132, 0.1);
+        }
+        
+        .upload-icon {
+            font-size: 48px;
+            color: var(--secondary-color);
+            margin-bottom: 15px;
+        }
+        
+        .upload-text {
+            font-size: 18px;
+            color: #666;
+        }
+        
+        .upload-btn {
+            background-color: var(--primary-color);
+            color: var(--white);
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-btn:hover {
+            background-color: #1b5e20;
+            transform: translateY(-2px);
+        }
+        
+        .camera-container {
+            display: none;
+            margin-bottom: 20px;
+        }
+        
+        #camera-feed {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .capture-btn {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+        }
+        
+        .capture-btn:hover {
+            background-color: #fdd835;
+        }
+        
+        .features-section {
+            padding: 80px 0;
+        }
+        
+        .feature-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+        }
+        
+        .feature-icon {
+            font-size: 48px;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+        }
+        
+        .feature-title {
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+        
+        .how-it-works {
+            padding: 80px 0;
+            background-color: var(--white);
+        }
+        
+        .step-card {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .step-number {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            border-radius: 50%;
+            line-height: 40px;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .step-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        
+        .footer {
+            background-color: var(--primary-color);
+            color: var(--white);
+            padding: 40px 0 20px;
+        }
+        
+        .footer-title {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links a {
+            color: var(--white);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent-color);
+            padding-left: 5px;
+        }
+        
+        .social-icons a {
+            color: var(--white);
+            font-size: 20px;
+            margin-right: 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            text-align: center;
+        }
+        
+        /* Flash messages */
+        .flash-messages {
+            margin-bottom: 20px;
+        }
+        
+        /* Loading spinner */
+        .spinner-container {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+            color: var(--primary-color);
+        }
+        
+        /* Preview image */
+        #image-preview {
+            max-width: 100%;
+            max-height: 300px;
+            border-radius: 5px;
+            display: none;
+            margin: 15px auto;
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .upload-container {
+                margin-top: -30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <i class="fas fa-leaf me-2"></i>{{ app_name }}
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <h1 class="hero-title">Protect Your Crops with AI Technology</h1>
+                <p class="hero-subtitle">Detect plant diseases instantly and get treatment recommendations</p>
+            </div>
+        </section>
+        
+        <!-- Upload Section -->
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="upload-container">
+                        <h2 class="upload-title">Analyze Your Plant</h2>
+                        
+                        <!-- Flash Messages -->
+                        <div class="flash-messages">
+                            {% with messages = get_flashed_messages() %}
+                                {% if messages %}
+                                    <div class="alert alert-danger">
+                                        <ul class="mb-0">
+                                        {% for message in messages %}
+                                            <li>{{ message }}</li>
+                                        {% endfor %}
+                                        </ul>
+                                    </div>
+                                {% endif %}
+                            {% endwith %}
+                        </div>
+                        
+                        <!-- Upload Methods Tabs -->
+                        <div class="upload-methods">
+                            <div class="method-tab active" id="upload-tab" onclick="switchMethod('upload')">
+                                <i class="fas fa-upload me-2"></i>Upload Image
+                            </div>
+                            <div class="method-tab" id="camera-tab" onclick="switchMethod('camera')">
+                                <i class="fas fa-camera me-2"></i>Take Photo
+                            </div>
+                        </div>
+                        
+                        <!-- Upload Form -->
+                        <form id="upload-form" action="{{ url_for('predict') }}" method="post" enctype="multipart/form-data">
+                            <div id="upload-method">
+                                <div class="upload-area" onclick="document.getElementById('file-input').click()">
+                                    <i class="fas fa-cloud-upload-alt upload-icon"></i>
+                                    <p class="upload-text">Drag & drop an image or click to browse</p>
+                                    <p class="text-muted">Supported formats: JPG, JPEG, PNG, GIF</p>
+                                </div>
+                                <input type="file" id="file-input" name="file" accept=".jpg,.jpeg,.png,.gif" style="display: none;" onchange="previewImage(this)">
+                                
+                                <!-- Image Preview -->
+                                <img id="image-preview" src="#" alt="Preview">
+                                
+                                <!-- Loading Spinner -->
+                                <div class="spinner-container" id="loading-spinner">
+                                    <div class="spinner-border" role="status">
+                                        <span class="visually-hidden">Loading...</span>
+                                    </div>
+                                    <p class="mt-2">Analyzing your image...</p>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <button type="submit" class="upload-btn" id="analyze-btn">
+                                        <i class="fas fa-search me-2"></i>Analyze Image
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                        <!-- Camera Method -->
+                        <div id="camera-method" class="camera-container">
+                            <div class="text-center mb-3">
+                                <video id="camera-feed" autoplay playsinline></video>
+                            </div>
+                            <div class="text-center">
+                                <button id="capture-btn" class="capture-btn">
+                                    <i class="fas fa-camera me-2"></i>Capture Photo
+                                </button>
+                                <button id="switch-camera-btn" class="btn btn-secondary">
+                                    <i class="fas fa-sync me-2"></i>Switch Camera
+                                </button>
+                            </div>
+                            <canvas id="canvas" style="display:none;"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-12">
+                        <h2 class="fw-bold">Why Choose {{ app_name }}?</h2>
+                        <p class="lead">Our advanced AI technology helps farmers identify and treat crop diseases quickly and accurately</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-card">
+                            <i class="fas fa-bolt feature-icon"></i>
+                            <h3 class="feature-title">Instant Detection</h3>
+                            <p>Get disease identification results in seconds, not days. Our AI model works instantly to analyze your crop images.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-card">
+                            <i class="fas fa-leaf feature-icon"></i>
+                            <h3 class="feature-title">Multiple Crops</h3>
+                            <p>Our system can identify diseases in various crops including apple, corn, tomato, potato, and many more.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="feature-card">
+                            <i class="fas fa-pills feature-icon"></i>
+                            <h3 class="feature-title">Treatment Advice</h3>
+                            <p>Get specific treatment recommendations and preventive measures for each identified disease.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- How It Works Section -->
+        <section class="how-it-works">
+            <div class="container">
+                <div class="row text-center mb-5">
+                    <div class="col-12">
+                        <h2 class="fw-bold">How It Works</h2>
+                        <p class="lead">Three simple steps to identify and treat crop diseases</p>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="step-card">
+                            <div class="step-number">1</div>
+                            <h3 class="step-title">Upload Image</h3>
+                            <p>Take a photo of your plant or upload an existing image showing the affected area.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="step-card">
+                            <div class="step-number">2</div>
+                            <h3 class="step-title">AI Analysis</h3>
+                            <p>Our advanced AI model analyzes the image to identify the disease affecting your crop.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="step-card">
+                            <div class="step-number">3</div>
+                            <h3 class="step-title">Get Results</h3>
+                            <p>Receive detailed information about the disease and recommended treatment options.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <h4 class="footer-title">{{ app_name }}</h4>
+                        <p>Helping farmers protect their crops with advanced AI technology for disease detection and treatment recommendations.</p>
+                        <div class="social-icons mt-3">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 mb-4">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <div class="footer-links">
+                            <a href="{{ url_for('index') }}">Home</a>
+                            <a href="{{ url_for('about') }}">About Us</a>
+                            <a href="{{ url_for('contact') }}">Contact Us</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-5 mb-4">
+                        <h4 class="footer-title">Contact Us</h4>
+                        <p><i class="fas fa-map-marker-alt me-2"></i>LPU, PUNJAB</p>
+                        <p><i class="fas fa-phone me-2"></i> +91 7357772564</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@yourcropmatters.com</p>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    <p>&copy; 2025 {{ app_name }}. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+        <!-- Bootstrap JS Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Custom JavaScript -->
+        <script>
+            // Switch between upload and camera methods
+            function switchMethod(method) {
+                if (method === 'upload') {
+                    document.getElementById('upload-method').style.display = 'block';
+                    document.getElementById('camera-method').style.display = 'none';
+                    document.getElementById('upload-tab').classList.add('active');
+                    document.getElementById('camera-tab').classList.remove('active');
+                    stopCamera();
+                } else {
+                    document.getElementById('upload-method').style.display = 'none';
+                    document.getElementById('camera-method').style.display = 'block';
+                    document.getElementById('upload-tab').classList.remove('active');
+                    document.getElementById('camera-tab').classList.add('active');
+                    startCamera();
+                }
+            }
+            
+            // Preview uploaded image
+            function previewImage(input) {
+                const preview = document.getElementById('image-preview');
+                const file = input.files[0];
+                
+                if (file) {
+                    const reader = new FileReader();
+                    
+                    reader.onload = function(e) {
+                        preview.src = e.target.result;
+                        preview.style.display = 'block';
+                    }
+                    
+                    reader.readAsDataURL(file);
+                }
+            }
+            
+            // Handle form submission
+            document.getElementById('upload-form').addEventListener('submit', function(e) {
+                const fileInput = document.getElementById('file-input');
+                
+                if (fileInput.files.length === 0) {
+                    e.preventDefault();
+                    alert('Please select an image to analyze.');
+                    return;
+                }
+                
+                document.getElementById('analyze-btn').disabled = true;
+                document.getElementById('loading-spinner').style.display = 'block';
+            });
+            
+            // Camera functionality
+            let stream;
+            let facingMode = 'environment'; // Start with back camera
+            
+            function startCamera() {
+                const video = document.getElementById('camera-feed');
+                
+                // Stop any existing stream
+                if (stream) {
+                    stream.getTracks().forEach(track => track.stop());
+                }
+                
+                // Camera constraints
+                const constraints = {
+                    video: {
+                        facingMode: facingMode,
+                        width: { ideal: 1280 },
+                        height: { ideal: 720 }
+                    }
+                };
+                
+                // Start video stream
+                navigator.mediaDevices.getUserMedia(constraints)
+                    .then(function(mediaStream) {
+                        stream = mediaStream;
+                        video.srcObject = mediaStream;
+                        video.play();
+                    })
+                    .catch(function(err) {
+                        console.error("Error accessing camera: " + err);
+                        alert("Could not access the camera. Please make sure you've granted camera permissions.");
+                    });
+            }
+            
+            function stopCamera() {
+                if (stream) {
+                    stream.getTracks().forEach(track => track.stop());
+                }
+            }
+            
+            // Switch between front and back cameras
+            document.getElementById('switch-camera-btn').addEventListener('click', function() {
+                facingMode = facingMode === 'environment' ? 'user' : 'environment';
+                startCamera();
+            });
+            
+            // Capture photo
+            document.getElementById('capture-btn').addEventListener('click', function() {
+                const video = document.getElementById('camera-feed');
+                const canvas = document.getElementById('canvas');
+                const context = canvas.getContext('2d');
+                
+                // Set canvas dimensions to match video
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                
+                // Draw video frame to canvas
+                context.drawImage(video, 0, 0, canvas.width, canvas.height);
+                
+                // Convert canvas to blob
+                canvas.toBlob(function(blob) {
+                    // Create a File object
+                    const file = new File([blob], "camera-capture.jpg", { type: "image/jpeg" });
+                    
+                    // Create a FileList-like object
+                    const dataTransfer = new DataTransfer();
+                    dataTransfer.items.add(file);
+                    
+                    // Set the file input's files
+                    const fileInput = document.getElementById('file-input');
+                    fileInput.files = dataTransfer.files;
+                    
+                    // Preview the captured image
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        document.getElementById('image-preview').src = e.target.result;
+                        document.getElementById('image-preview').style.display = 'block';
+                    }
+                    reader.readAsDataURL(file);
+                    
+                    // Switch back to upload method to show the captured image
+                    switchMethod('upload');
+                }, 'image/jpeg', 0.95);
+            });
+            
+            // Clean up camera when page is unloaded
+            window.addEventListener('beforeunload', function() {
+                stopCamera();
+            });
+        </script>
+    </body>
+    </html>

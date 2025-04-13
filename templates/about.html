@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ app_name }} - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="{{ url_for('index') }}" class="logo">
+                    <i class="fas fa-leaf"></i> {{ app_name }}
+                </a>
+                <ul class="nav-links">
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}" class="active">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-hero">
+            <div class="container">
+                <h1>About YOUR CROP MATTERS</h1>
+                <p>Empowering farmers with AI-powered crop disease detection</p>
+            </div>
+        </section>
+
+        <section class="about-content">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="{{ url_for('static', filename='images/about-image.jpg') }}" alt="Healthy crops in a field">
+                    </div>
+                    <div class="about-text">
+                        <h2>Our Mission</h2>
+                        <p>YOUR CROP MATTERS is dedicated to helping farmers and agricultural professionals identify crop diseases quickly and accurately. By leveraging artificial intelligence and machine learning, we provide a tool that can detect diseases in apple, corn, and tomato plants, helping to reduce crop losses and improve yields.</p>
+                        
+                        <h2>How It Works</h2>
+                        <p>Our application uses a trained deep learning model to analyze images of plant leaves. Simply upload a photo of your plant, and our system will identify potential diseases, provide a confidence score, and offer treatment and prevention recommendations.</p>
+                    </div>
+                </div>
+
+                <div class="supported-crops">
+                    <h2>Supported Crops</h2>
+                    <p>Currently, we can detect diseases in:</p>
+                    <ul>
+                        <li>Apple trees (Apple scab, Black rot, Cedar apple rust)</li>
+                        <li>Corn/Maize (Cercospora leaf spot, Common rust, Northern Leaf Blight)</li>
+                        <li>Tomato plants (Early blight, Late blight, Leaf mold, and more)</li>
+                    </ul>
+                </div>
+
+                <div class="technology-section">
+                    <h2>Our Technology</h2>
+                    <div class="tech-cards">
+                        <div class="tech-card">
+                            <i class="fas fa-brain"></i>
+                            <h3>Machine Learning</h3>
+                            <p>Powered by advanced neural networks trained on thousands of plant disease images.</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Accessibility</h3>
+                            <p>Access our tool from any device with a browser and internet connection.</p>
+                        </div>
+                        <div class="tech-card">
+                            <i class="fas fa-database"></i>
+                            <h3>Knowledge Base</h3>
+                            <p>Comprehensive database of disease information and treatment recommendations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-leaf"></i> {{ app_name }}
+                </div>
+                <div class="footer-links">
+                    <a href="{{ url_for('index') }}">Home</a>
+                    <a href="{{ url_for('about') }}">About</a>
+                    <a href="{{ url_for('contact') }}">Contact</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 {{ app_name }}. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

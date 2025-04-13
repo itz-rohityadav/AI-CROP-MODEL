@@ -1,0 +1,193 @@
+2025-04-04 20:25:57,009 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 20:26:43,919 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 20:26:43,950 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 20:26:43,965 - crop_matters - INFO - Application started
+2025-04-04 20:26:44,417 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 20:26:44,417 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:26:44,431 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 20:26:45,710 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 20:26:55,611 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 20:26:55,631 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 20:26:55,640 - crop_matters - INFO - Application started
+2025-04-04 20:26:55,693 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 20:26:55,720 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 20:27:43,071 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:43] "GET / HTTP/1.1" 200 -
+2025-04-04 20:27:43,119 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:43] "GET / HTTP/1.1" 200 -
+2025-04-04 20:27:43,311 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-04 20:27:43,330 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:27:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 20:28:02,790 - crop_matters - INFO - Saved uploaded file: 69c2948c-8cef-42ec-a2e4-1676932b7629_istockphoto-1142266260-612x612.jpg
+2025-04-04 20:28:03,765 - crop_matters - INFO - Prediction for 69c2948c-8cef-42ec-a2e4-1676932b7629_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 0.98s
+2025-04-04 20:28:03,766 - crop_matters - ERROR - Error processing 69c2948c-8cef-42ec-a2e4-1676932b7629_istockphoto-1142266260-612x612.jpg: 'CropDiseaseDetector' object has no attribute 'visualize_prediction'
+2025-04-04 20:28:03,767 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:03] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 20:28:03,776 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:03] "GET / HTTP/1.1" 200 -
+2025-04-04 20:28:03,808 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:03] "GET / HTTP/1.1" 200 -
+2025-04-04 20:28:33,781 - crop_matters - INFO - Saved uploaded file: 8e071b3e-21c3-450a-a78e-326b831fc86a_camera-capture.jpg
+2025-04-04 20:28:33,920 - crop_matters - INFO - Prediction for 8e071b3e-21c3-450a-a78e-326b831fc86a_camera-capture.jpg: Tomato___Bacterial_spot with confidence 0.0298 in 0.14s
+2025-04-04 20:28:33,921 - crop_matters - ERROR - Error processing 8e071b3e-21c3-450a-a78e-326b831fc86a_camera-capture.jpg: 'CropDiseaseDetector' object has no attribute 'visualize_prediction'
+2025-04-04 20:28:33,922 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:33] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 20:28:33,927 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:33] "GET / HTTP/1.1" 200 -
+2025-04-04 20:28:33,947 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:28:33] "GET / HTTP/1.1" 200 -
+2025-04-04 20:31:54,676 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 20:32:00,996 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 20:32:01,002 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 20:32:01,006 - crop_matters - INFO - Application started
+2025-04-04 20:32:01,056 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 20:32:01,057 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 20:32:01,059 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 20:32:01,993 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 20:32:08,903 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 20:32:08,910 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 20:32:08,914 - crop_matters - INFO - Application started
+2025-04-04 20:32:08,935 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 20:32:08,960 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 20:32:13,590 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:32:13] "GET / HTTP/1.1" 200 -
+2025-04-04 20:32:13,621 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:32:13] "GET / HTTP/1.1" 200 -
+2025-04-04 20:32:22,603 - crop_matters - INFO - Saved uploaded file: 50625a3d-2dbd-449d-b40d-bd74006e2cab_istockphoto-1142266260-612x612.jpg
+2025-04-04 20:32:23,187 - crop_matters - INFO - Prediction for 50625a3d-2dbd-449d-b40d-bd74006e2cab_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 0.58s
+2025-04-04 20:32:23,187 - crop_matters - ERROR - Error processing 50625a3d-2dbd-449d-b40d-bd74006e2cab_istockphoto-1142266260-612x612.jpg: 'CropDiseaseDetector' object has no attribute 'visualize_prediction'
+2025-04-04 20:32:23,189 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:32:23] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 20:32:23,197 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:32:23] "GET / HTTP/1.1" 200 -
+2025-04-04 20:32:23,228 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:32:23] "GET / HTTP/1.1" 200 -
+2025-04-04 20:33:25,906 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:25] "GET / HTTP/1.1" 200 -
+2025-04-04 20:33:25,950 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:25] "GET / HTTP/1.1" 200 -
+2025-04-04 20:33:26,425 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-04 20:33:26,428 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 20:33:38,796 - crop_matters - INFO - Saved uploaded file: 6059dede-8e53-4e51-b4b9-6710fff1a130_camera-capture.jpg
+2025-04-04 20:33:38,978 - crop_matters - INFO - Prediction for 6059dede-8e53-4e51-b4b9-6710fff1a130_camera-capture.jpg: Grape___healthy with confidence 0.0286 in 0.18s
+2025-04-04 20:33:38,978 - crop_matters - ERROR - Error processing 6059dede-8e53-4e51-b4b9-6710fff1a130_camera-capture.jpg: 'CropDiseaseDetector' object has no attribute 'visualize_prediction'
+2025-04-04 20:33:38,979 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:38] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 20:33:38,985 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:38] "GET / HTTP/1.1" 200 -
+2025-04-04 20:33:39,047 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 20:33:39] "GET / HTTP/1.1" 200 -
+2025-04-04 21:22:25,665 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:22:49,724 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:22:49,753 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:22:49,773 - crop_matters - INFO - Application started
+2025-04-04 21:22:49,960 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 21:22:49,960 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:22:49,972 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 21:22:51,958 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:23:10,310 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:23:10,329 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:23:10,353 - crop_matters - INFO - Application started
+2025-04-04 21:23:10,463 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:23:10,540 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 21:23:15,767 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:15] "GET / HTTP/1.1" 200 -
+2025-04-04 21:23:16,188 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:16] "GET / HTTP/1.1" 200 -
+2025-04-04 21:23:16,453 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:16] "GET / HTTP/1.1" 200 -
+2025-04-04 21:23:16,763 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:16] "GET / HTTP/1.1" 200 -
+2025-04-04 21:23:32,648 - crop_matters - INFO - Saved uploaded file: 94b8046b-7831-416d-afb3-13ad092998ec_istockphoto-1142266260-612x612.jpg
+2025-04-04 21:23:34,376 - crop_matters - INFO - Prediction for 94b8046b-7831-416d-afb3-13ad092998ec_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 1.73s
+2025-04-04 21:23:34,402 - crop_matters - ERROR - Error processing 94b8046b-7831-416d-afb3-13ad092998ec_istockphoto-1142266260-612x612.jpg: OpenCV(4.11.0) :-1: error: (-5:Bad argument) in function 'addWeighted'
+> Overload resolution failed:
+>  - argument for addWeighted() given by name ('dst') and position (6)
+>  - argument for addWeighted() given by name ('dst') and position (6)
+
+2025-04-04 21:23:34,405 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:34] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 21:23:34,737 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:34] "GET / HTTP/1.1" 200 -
+2025-04-04 21:23:34,998 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:23:34] "GET / HTTP/1.1" 200 -
+2025-04-04 21:26:27,742 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:26:45,794 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:26:45,811 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:26:45,824 - crop_matters - INFO - Application started
+2025-04-04 21:26:45,943 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 21:26:45,943 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:26:45,947 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 21:26:48,332 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:27:06,476 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:27:06,485 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:27:06,491 - crop_matters - INFO - Application started
+2025-04-04 21:27:06,522 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:27:06,558 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 21:27:16,590 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:27:16] "GET / HTTP/1.1" 200 -
+2025-04-04 21:27:16,719 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:27:16] "GET / HTTP/1.1" 200 -
+2025-04-04 21:27:26,928 - crop_matters - INFO - Saved uploaded file: e6fa9ee1-d785-4e68-b0f1-b21c699fe0da_istockphoto-1142266260-612x612.jpg
+2025-04-04 21:27:28,503 - crop_matters - INFO - Prediction for e6fa9ee1-d785-4e68-b0f1-b21c699fe0da_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 1.57s
+2025-04-04 21:27:28,839 - crop_matters - ERROR - Error processing e6fa9ee1-d785-4e68-b0f1-b21c699fe0da_istockphoto-1142266260-612x612.jpg: Object of type Undefined is not JSON serializable
+2025-04-04 21:27:28,843 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:27:28] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 21:27:28,860 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:27:28] "GET / HTTP/1.1" 200 -
+2025-04-04 21:27:28,904 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:27:28] "GET / HTTP/1.1" 200 -
+2025-04-04 21:31:57,736 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:32:08,747 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:32:08,751 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:32:08,754 - crop_matters - INFO - Application started
+2025-04-04 21:32:08,826 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 21:32:08,826 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:32:08,831 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 21:32:09,659 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:32:17,009 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:32:17,016 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:32:17,020 - crop_matters - INFO - Application started
+2025-04-04 21:32:17,045 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:32:17,062 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 21:32:24,203 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:32:24] "GET / HTTP/1.1" 200 -
+2025-04-04 21:32:24,260 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:32:24] "GET / HTTP/1.1" 200 -
+2025-04-04 21:32:33,333 - crop_matters - INFO - Saved uploaded file: 27b98c75-19c1-4712-bb3f-402f5b1b1270_istockphoto-1142266260-612x612.jpg
+2025-04-04 21:32:34,658 - crop_matters - INFO - Prediction for 27b98c75-19c1-4712-bb3f-402f5b1b1270_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 1.32s
+2025-04-04 21:32:34,734 - crop_matters - ERROR - Error processing 27b98c75-19c1-4712-bb3f-402f5b1b1270_istockphoto-1142266260-612x612.jpg: Object of type Undefined is not JSON serializable
+2025-04-04 21:32:34,737 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:32:34] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 21:32:35,064 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:32:35] "GET / HTTP/1.1" 200 -
+2025-04-04 21:32:35,324 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:32:35] "GET / HTTP/1.1" 200 -
+2025-04-04 21:33:22,490 - crop_matters - INFO - Saved uploaded file: f032d94c-b435-4ae3-8d29-cec5f77b1a4d_camera-capture.jpg
+2025-04-04 21:33:22,958 - crop_matters - INFO - Prediction for f032d94c-b435-4ae3-8d29-cec5f77b1a4d_camera-capture.jpg: Tomato___Leaf_Mold with confidence 0.0283 in 0.47s
+2025-04-04 21:33:23,015 - crop_matters - ERROR - Error processing f032d94c-b435-4ae3-8d29-cec5f77b1a4d_camera-capture.jpg: Object of type Undefined is not JSON serializable
+2025-04-04 21:33:23,017 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:33:23] "[32mPOST /predict HTTP/1.1[0m" 302 -
+2025-04-04 21:33:23,025 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:33:23] "GET / HTTP/1.1" 200 -
+2025-04-04 21:33:23,061 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:33:23] "GET / HTTP/1.1" 200 -
+2025-04-04 21:49:08,972 - werkzeug - INFO -  * Detected change in 'c:\\Users\\STAR\\Desktop\\crp dia\\app.py', reloading
+2025-04-04 21:50:13,553 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:50:31,221 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:50:31,267 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:50:31,319 - crop_matters - INFO - Application started
+2025-04-04 21:50:31,517 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.10:5000
+2025-04-04 21:50:31,518 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-04 21:50:31,526 - werkzeug - INFO -  * Restarting with stat
+2025-04-04 21:50:33,595 - crop_matters - INFO - Loaded 38 disease classes from class_indices.json
+2025-04-04 21:50:49,099 - absl - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-04-04 21:50:49,118 - crop_matters - INFO - Successfully loaded real disease detector model
+2025-04-04 21:50:49,132 - crop_matters - INFO - Application started
+2025-04-04 21:50:49,187 - werkzeug - WARNING -  * Debugger is active!
+2025-04-04 21:50:49,223 - werkzeug - INFO -  * Debugger PIN: 132-841-439
+2025-04-04 21:51:11,333 - crop_matters - INFO - Saved uploaded file: 1d025c50-d2bb-4b85-8b15-0a45f3f546cb_istockphoto-1142266260-612x612.jpg
+2025-04-04 21:51:12,968 - crop_matters - INFO - Prediction for 1d025c50-d2bb-4b85-8b15-0a45f3f546cb_istockphoto-1142266260-612x612.jpg: Tomato___Bacterial_spot with confidence 0.0297 in 1.63s
+2025-04-04 21:51:13,052 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:51:13] "POST /predict HTTP/1.1" 200 -
+2025-04-04 21:51:13,626 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:51:13] "GET /uploads/1d025c50-d2bb-4b85-8b15-0a45f3f546cb_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-04 21:51:13,665 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:51:13] "GET /uploads/vis_1d025c50-d2bb-4b85-8b15-0a45f3f546cb_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-04 21:55:29,996 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:55:29] "GET /contact HTTP/1.1" 200 -
+2025-04-04 21:55:30,058 - crop_matters - WARNING - 404 error: /static/css/style.css
+2025-04-04 21:55:30,066 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:55:30] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-04-04 21:55:30,098 - crop_matters - WARNING - 404 error: /static/js/script.js
+2025-04-04 21:55:30,100 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:55:30] "[33mGET /static/js/script.js HTTP/1.1[0m" 404 -
+2025-04-04 21:56:07,300 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:56:07] "GET / HTTP/1.1" 200 -
+2025-04-04 21:56:07,318 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:56:07] "GET / HTTP/1.1" 200 -
+2025-04-04 21:56:20,834 - crop_matters - INFO - Saved uploaded file: 64498657-13e1-4f68-bdbd-d76785cbc61e_camera-capture.jpg
+2025-04-04 21:56:21,803 - crop_matters - INFO - Prediction for 64498657-13e1-4f68-bdbd-d76785cbc61e_camera-capture.jpg: Tomato___Leaf_Mold with confidence 0.0285 in 0.97s
+2025-04-04 21:56:21,873 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:56:21] "POST /predict HTTP/1.1" 200 -
+2025-04-04 21:56:21,906 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:56:21] "GET /uploads/64498657-13e1-4f68-bdbd-d76785cbc61e_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-04 21:56:22,243 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 21:56:22] "GET /uploads/vis_64498657-13e1-4f68-bdbd-d76785cbc61e_camera-capture.jpg HTTP/1.1" 200 -
+2025-04-04 22:00:11,629 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:00:11] "GET / HTTP/1.1" 200 -
+2025-04-04 22:00:12,221 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:00:12] "GET / HTTP/1.1" 200 -
+2025-04-04 22:00:15,804 - crop_matters - WARNING - 404 error: /favicon.ico
+2025-04-04 22:00:15,806 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:00:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 22:02:00,862 - crop_matters - INFO - Saved uploaded file: 58dfee43-63fa-4912-ba81-c19648547cb3_istockphoto-1142266260-612x612.jpg
+2025-04-04 22:02:01,526 - crop_matters - INFO - Prediction for 58dfee43-63fa-4912-ba81-c19648547cb3_istockphoto-1142266260-612x612.jpg: Tomato___Leaf_Mold with confidence 0.0293 in 0.66s
+2025-04-04 22:02:01,542 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:02:01] "POST /predict HTTP/1.1" 200 -
+2025-04-04 22:02:01,608 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:02:01] "GET /uploads/58dfee43-63fa-4912-ba81-c19648547cb3_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
+2025-04-04 22:02:01,625 - werkzeug - INFO - 127.0.0.1 - - [04/Apr/2025 22:02:01] "GET /uploads/vis_58dfee43-63fa-4912-ba81-c19648547cb3_istockphoto-1142266260-612x612.jpg HTTP/1.1" 200 -
