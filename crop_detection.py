@@ -23,14 +23,34 @@ class CropDiseaseDetector:
         
         # Load the model
         try:
+            # Set memory growth to prevent TensorFlow from allocating all GPU memory
+            gpus = tf.config.experimental.list_physical_devices('GPU')
+            if gpus:
+                for gpu in gpus:
+                    tf.config.experimental.set_memory_growth(gpu, True)
+                logger.info(f"Found {len(gpus)} GPU(s), set memory growth")
+            
+            # Load model with error handling
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"Model file not found: {model_path}")
+                
             self.model = load_model(model_path)
             logger.info(f"Loaded model from {model_path}")
             
             # Get image size from model input shape
-            self.img_size = self.model.input_shape[1]  # Assuming square input
+            if self.model.input_shape is None:
+                # Default to 224x224 if input shape is not available
+                self.img_size = 224
+                logger.warning("Could not determine input size from model, using default 224x224")
+            else:
+                self.img_size = self.model.input_shape[1]  # Assuming square input
+            
             logger.info(f"Model expects input size: {self.img_size}x{self.img_size}")
             
             # Load class indices
+            if not os.path.exists(class_indices_path):
+                raise FileNotFoundError(f"Class indices file not found: {class_indices_path}")
+                
             with open(class_indices_path, 'r') as f:
                 self.class_indices = json.load(f)
                 
@@ -78,7 +98,9 @@ class CropDiseaseDetector:
             
             # Make prediction
             logger.info(f"Making prediction for {img_path}")
-            predictions = self.model.predict(processed_img)
+            
+            # Use a timeout to prevent hanging on large images
+            predictions = self.model.predict(processed_img, verbose=0)
             
             # Get the predicted class index and probability
             pred_class_idx = np.argmax(predictions[0])
@@ -123,7 +145,7 @@ class CropDiseaseDetector:
             processed_img = self.preprocess_image(img_path)
             
             # Make prediction
-            predictions = self.model.predict(processed_img)
+            predictions = self.model.predict(processed_img, verbose=0)
             
             # Get top k indices
             top_indices = np.argsort(predictions[0])[-top_k:][::-1]

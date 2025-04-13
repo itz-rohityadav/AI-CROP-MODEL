@@ -1,4 +1,4 @@
-# app.py
+
 import os
 import uuid
 import time
@@ -22,9 +22,13 @@ app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max upload44t
 app.config['SESSION_TYPE'] = 'filesystem'
 app.config['PERMANENT_SESSION_LIFETIME'] = 1800  # 30 minutes
 
-# Configure paths
-UPLOAD_FOLDER = os.path.join('user_data', 'uploads')
-LOG_FOLDER = os.path.join('logs')
+# Set debug mode based on environment
+DEBUG_MODE = False if 'RENDER' in os.environ else True
+app.config['DEBUG'] = DEBUG_MODE
+
+# Configure paths - use /tmp for Render's ephemeral filesystem
+UPLOAD_FOLDER = os.path.join('/tmp', 'uploads') if 'RENDER' in os.environ else os.path.join('user_data', 'uploads')
+LOG_FOLDER = os.path.join('/tmp', 'logs') if 'RENDER' in os.environ else os.path.join('logs')
 ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif', 'webp'}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -97,8 +101,10 @@ except (FileNotFoundError, json.JSONDecodeError) as e:
     "Tomato___Tomato_mosaic_virus",
     "Tomato___healthy"
 ]
-    # Disease information database
+
+# Disease information database
 disease_database = {
+    
     'Apple___Apple_scab': {
         'name': 'Apple Scab',
         'scientific_name': 'Venturia inaequalis',
@@ -2190,6 +2196,7 @@ def visualize_prediction(img_path, output_path, result):
             cv2.putText(blank_img, "Visualization failed", (50, 240), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2)
             cv2.imwrite(output_path, blank_img)
         return output_path
+
 def ensure_serializable(obj):
     """Ensure all values in a dictionary are JSON serializable."""
     if isinstance(obj, dict):
@@ -2424,8 +2431,7 @@ def predict():
                 
                 # Resize for display if needed
                 display_img = cv2.resize(img, (640, 480)) if img.shape[0] > 480 or img.shape[1] > 640 else img.copy()
-                
-                # Add a semi-transparent overlay
+                                # Add a semi-transparent overlay
                 overlay = display_img.copy()
                 h, w = display_img.shape[:2]
                 cv2.rectangle(overlay, (0, h-60), (w, h), (0, 0, 0), -1)
@@ -2515,5 +2521,6 @@ if __name__ == '__main__':
     print(f"📁 Upload directory: {os.path.abspath(UPLOAD_FOLDER)}")
     logger.info("Application started")
     
-    # Start the Flask development server
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use PORT environment variable for Render
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=DEBUG_MODE, host='0.0.0.0', port=port)
